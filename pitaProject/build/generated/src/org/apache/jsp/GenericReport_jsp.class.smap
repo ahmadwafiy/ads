@@ -1,0 +1,14 @@
+SMAP
+GenericReport_jsp.java
+JSP
+*S JSP
+*F
++ 0 GenericReport.jsp
+GenericReport.jsp
+*L
+5,15:50
+20,22:66
+41,4:88
+45:92,3
+46,3:95
+*E

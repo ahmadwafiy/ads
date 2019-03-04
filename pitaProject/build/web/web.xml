@@ -1,0 +1,24 @@
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+***images storing config****
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <display-name>servletFileUpload</display-name>
+    <welcome-file-list>
+        <welcome-file>Upload.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description></description>
+        <display-name>FileUploadDBServlet</display-name>
+        <servlet-name>FileUploadDBServlet</servlet-name>
+    <servlet-class>com.fileupload.attach.FileUploadDBServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileUploadDBServlet</servlet-name>
+        <url-pattern>/uploadServlet</url-pattern>
+    </servlet-mapping>
+</web-app
